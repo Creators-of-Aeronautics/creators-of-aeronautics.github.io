@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'MinecraftMono';
+    src: url('../../resources/MinecraftMono.otf');
+}
+
+
+body {
+    background-color: lightblue;
+    margin: 0;
+
+    overflow: hidden;
+
+    --button-size: 250px
+}
+
+#backgroundImage {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: auto;
+
+    image-rendering: pixelated;
+}
+
+#logoImage {
+    width: 50%;
+
+    position: absolute;
+    right: 25%;
+
+    padding: 1%;
+}
+
+#infoTextBox {
+    width: 50%;
+    height: 50%;
+
+    position: absolute;
+    right: 25%;
+    bottom: 25%;
+
+    text-align: center;
+    font-size:  x-large;
+    font-family: 'MinecraftMono';
+
+    background-image: url('../../resources/textbox.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 50%;
+
+    image-rendering: pixelated;
+}
+
+#infoText {
+    width: 60%;
+
+    position: relative;
+    left: 20%;
+    top: 23%;
+}
+
+
+#externalIcons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 1% 1% 0;
+}
+
+.icon {
+    height: 56;
+    transition: 100ms;
+}
+
+.icon:hover {
+    size: 100px;
+    padding-bottom: 10px;
+    transition: 100ms;
+}
+
+#buttons {
+    width: 50%;
+    height: 50%;
+
+    position: absolute;
+    right: 20.3%;
+    bottom: -19%;
+
+    text-align: center;
+    font-family: 'MinecraftMono';
+
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+#blueprintButton {
+    width: var(--button-size);
+    height: var(--button-size);
+
+    background-image: url('../../resources/blueprint_button.png');
+    background-size: var(--button-size);
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+
+    float:inline-start;
+}
+#brassButton {
+    width: var(--button-size);
+    height: var(--button-size);
+
+    padding-right: 1pc;
+
+    background-image: url('../../resources/brass_button.png');
+    background-size: var(--button-size);
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+
+    float:inline-start;
+}
+#beltButton {
+    width: var(--button-size);
+    height: var(--button-size);
+
+    padding-right: 1pc;
+
+    background-image: url('../../resources/belt_button.png');
+    background-size: var(--button-size);
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+
+    float:inline-start;
+}
