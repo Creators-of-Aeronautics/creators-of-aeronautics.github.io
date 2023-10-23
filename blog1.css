@@ -52,3 +52,21 @@ body {
 .sshot2 {
     width: 70%;
 }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .sshot1 {
+        width: 100%;
+    }
+    .sshot2 {
+        width: 100%;
+    }
+}
