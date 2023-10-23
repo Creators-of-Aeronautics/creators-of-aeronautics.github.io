@@ -99,7 +99,7 @@ body {
 }
 
 .icon {
-    height: 56;
+    height: 3em;
     transition: 100ms;
 }
 
@@ -188,7 +188,7 @@ body {
     }
 
     #infoText {
-        font-size: 0.65em;
+        font-size: 0.6em;
         margin-left: 3.2em;    
         margin-right: 3.2em;    
         margin-top: 2.5em;    
@@ -217,5 +217,11 @@ body {
         padding: 0px;
         width:100%;
         height: 8em !important;
+    }
+    #brassButton {
+        visibility: hidden;
+    }
+    #blueprintButton {
+        visibility: hidden;
     }
 }
