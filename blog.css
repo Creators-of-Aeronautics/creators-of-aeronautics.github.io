@@ -14,8 +14,8 @@ body {
     
     background-color: white;
     padding: 2rem;
-    max-width: 90%;
     width: 50rem;
+    max-width: 90vw;
     font-size: 1.2rem;
 }
 

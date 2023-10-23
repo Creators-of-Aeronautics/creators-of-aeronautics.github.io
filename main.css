@@ -188,10 +188,10 @@ body {
     }
 
     #infoText {
-        font-size: 0.7em;
-        margin-left: 4.5em;    
-        margin-right: 4.5em;    
-        margin-top: 3.5em;    
+        font-size: 0.65em;
+        margin-left: 3.2em;    
+        margin-right: 3.2em;    
+        margin-top: 2.5em;    
     }
     
 
@@ -208,6 +208,7 @@ body {
         flex:1;
         max-width: 100%;
         gap: 0em;
+        justify-content: start;
     }
 
     .nav-button {

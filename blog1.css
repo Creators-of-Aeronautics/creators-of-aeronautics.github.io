@@ -15,8 +15,9 @@ body {
 }
 
 .content {
-    background: rgba(100%,100%,100%,80%) !important;
-    backdrop-filter: blur(10px);
+    background-color: white;
+    /* background: rgba(100%,100%,100%,80%) !important; */
+    /* backdrop-filter: blur(10px); */
     font-size: 1rem;
 
 }
