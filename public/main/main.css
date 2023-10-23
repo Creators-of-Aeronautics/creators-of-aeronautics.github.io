@@ -4,6 +4,16 @@
 }
 
 
+.mainSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 2em;
+}
+
 body {
     background-color: lightblue;
     margin: 0;
@@ -23,25 +33,48 @@ body {
     image-rendering: pixelated;
 }
 
-#logoImage {
-    width: 50%;
+.spacer {
+    height:50vh;
+}
 
+#backgroundImages {
     position: absolute;
-    right: 25%;
+    top: 0;
 
-    padding: 1%;
+    width: 100%;
+    height: auto;
+
+    image-rendering: pixelated;
+}
+
+#backgroundImages>img {
+    width: 100%;
+    height:auto;
+    image-rendering: pixelated;
+    margin: 0px;
+}
+
+.void {
+    margin: 0px;
+    margin-top: -1em;
+}
+
+#logoImage {
+    padding: 0.5em;
+
+    min-width:23em;
+    max-width:40%;
+    width: 40%;
 }
 
 #infoTextBox {
-    width: 50%;
-    height: 50%;
+    max-width: 98%;
+    width: 30em;
 
-    position: absolute;
-    right: 25%;
-    bottom: 25%;
+    aspect-ratio: 2.28;
 
     text-align: center;
-    font-size:  x-large;
+    font-size: x-large;
     font-family: 'MinecraftMono';
 
     background-image: url('../../resources/textbox.png');
@@ -53,11 +86,8 @@ body {
 }
 
 #infoText {
-    width: 60%;
-
-    position: relative;
-    left: 20%;
-    top: 23%;
+    font-size: 1em;
+    margin: 4em;
 }
 
 
@@ -80,54 +110,111 @@ body {
 }
 
 #buttons {
-    width: 50%;
-    height: 50%;
-
-    position: absolute;
-    right: 20.3%;
-    bottom: -19%;
-
     text-align: center;
     font-family: 'MinecraftMono';
 
     color: white;
     text-shadow: 4px 4px black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 5em;
+    z-index:100;
 }
 
 #blueprintButton {
-    width: var(--button-size);
-    height: var(--button-size);
-
     background-image: url('../../resources/blueprint_button.png');
-    background-size: var(--button-size);
-    background-repeat: no-repeat;
-    image-rendering: pixelated;
-
-    float:inline-start;
 }
+
 #brassButton {
-    width: var(--button-size);
-    height: var(--button-size);
-
-    padding-right: 1pc;
-
     background-image: url('../../resources/brass_button.png');
-    background-size: var(--button-size);
-    background-repeat: no-repeat;
-    image-rendering: pixelated;
-
-    float:inline-start;
 }
+
 #beltButton {
-    width: var(--button-size);
-    height: var(--button-size);
-
-    padding-right: 1pc;
-
     background-image: url('../../resources/belt_button.png');
-    background-size: var(--button-size);
+}
+
+.nav-button {
+    background-size: contain;
     background-repeat: no-repeat;
     image-rendering: pixelated;
 
-    float:inline-start;
+    aspect-ratio: 50%;
+    flex: 1;
+    padding: 0px;
+    height:100%;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    transform: scale(1.0);
+    transition: 100ms transform;
+
+
+    /* background-color: none;
+    border: none; */
+}
+
+.disabled-nav {
+    filter: grayscale(100%);
+    cursor: not-allowed;
+    opacity: 30%;
+}
+
+.nav-button:hover {
+    transform: scale(1.05);
+}
+
+.nav-button>h1 {
+    margin: 0px;
+    padding: 0px;
+    /* flex:1;
+    width: 100%;
+    height:100%; */
+}
+
+/* media query for small screens */
+@media screen and (max-width: 600px) {
+    #infoTextBox {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #infoText {
+        font-size: 0.7em;
+        margin-left: 4.5em;    
+        margin-right: 4.5em;    
+        margin-top: 3.5em;    
+    }
+    
+
+    #logoImage {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    #buttons {
+        margin: 0px;
+        padding: 0px;
+        flex-direction: column;
+        width: 15em;
+        flex:1;
+        max-width: 100%;
+        gap: 0em;
+    }
+
+    .nav-button {
+        aspect-ratio: 50%;
+        flex: none;
+        padding: 0px;
+        width:100%;
+        height: 8em !important;
+    }
 }
