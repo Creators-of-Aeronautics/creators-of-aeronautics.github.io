@@ -1,0 +1,53 @@
+body {
+    /* background: linear-gradient(
+    to bottom, 
+    #cae2e3,
+    #cae2e3 50vh,
+    #150e0b 40vh,
+    #150e0b
+  ); */
+
+  background: #150e0b;
+}
+
+.spacer {
+    background: #cae2e3;
+}
+
+.content {
+    background: rgba(100%,100%,100%,80%) !important;
+    backdrop-filter: blur(10px);
+    font-size: 1rem;
+
+}
+
+.void {
+    background-color: #150e0b;
+    width: 100%;
+    height: 30em;
+    position: relative;
+}
+
+.void::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: -2em;
+    bottom: -2em;
+    right: 0px;
+    filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.voideternal {
+}
+
+/* .sshot1 {
+    width: 100%;
+} */
+.sshot1 {
+    width: 40%;
+}
+.sshot2 {
+    width: 70%;
+}

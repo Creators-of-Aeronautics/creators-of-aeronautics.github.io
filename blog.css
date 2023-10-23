@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'MinecraftMono';
+    src: url('resources/MinecraftMono.otf');
+}
+
+body {
+    overflow: auto !important;
+}
+
+.content {
+    z-index: 200;
+    font-family: "IBM Plex Serif",serif;
+    font-size: 1.1rem;
+    
+    background-color: white;
+    padding: 2rem;
+    max-width: 90%;
+    width: 50rem;
+    font-size: 1.2rem;
+}
+
+.back {
+    background-image: url('resources/noise.jpeg');
+    background-size: 10em;
+    background-color: rgba(20, 20, 20, 0.6);
+    background-blend-mode: multiply;
+    padding: 0.5em;
+    font-family: 'MinecraftMono';
+    color: white;
+    cursor: pointer;
+    transition: 100ms background-color;
+}
+
+.read-more {
+    background-image: url('resources/noise.jpeg');
+    background-size: 10em;
+    background-color: rgba(60, 60, 255, 0.9);
+    background-blend-mode: multiply;
+    padding: 0.5em;
+    font-family: 'MinecraftMono';
+    color: white;
+    cursor: pointer;
+    transition: 100ms background-color;
+}
+
+.back:hover {
+    background-color: rgba(20, 20, 20, 0.8);
+    transition: 100ms background-color;
+}
+
+.content>h1 {
+    font-family: 'MinecraftMono';
+    font-size: 2rem;
+}
+
+
+.article::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 0.7em;
+    background-image: url('resources/noise.jpeg');
+    background-size: 10em;
+    background-color: rgba(20, 20, 20, 0.6);
+    background-blend-mode: multiply;
+}
+
+.article {
+    position: relative;
+    background: rgb(90%, 90%, 90%);
+    margin-top: 1em;
+    padding: 1em;
+    padding-left: 2em
+}
+
+.article-title {
+    margin: 0px;
+    font-size: 1.25em;
+    font-family: 'MinecraftMono';
+}
+
+.article-date {
+    margin-top: 8px;
+    font-size: 0.8rem;
+}
+
+.article-blurb {
+    margin: 0px;
+    font-size: 0.95em;
+}
