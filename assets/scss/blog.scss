@@ -1,0 +1,88 @@
+body {
+    overflow: auto !important;
+}
+
+.content {
+    z-index: 200;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 1.1rem;
+
+    background-color: white;
+    padding: 2rem;
+    width: 50rem;
+    max-width: 90vw;
+    font-size: 1.2rem;
+
+    h1 {
+        font-family: "MinecraftMono";
+        font-size: 2rem;
+    }
+
+    .back {
+        background-image: url("~/assets/images/noise.jpeg");
+        background-size: 10em;
+        background-color: rgba(20, 20, 20, 0.6);
+        background-blend-mode: multiply;
+        padding: 0.5em;
+        font-family: "MinecraftMono";
+        color: white;
+        cursor: pointer;
+        transition: 100ms background-color;
+        text-decoration: none;
+    }
+
+    .article {
+        position: relative;
+        background: rgb(90%, 90%, 90%);
+        margin-top: 1em;
+        padding: 1em;
+        padding-left: 2em;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            bottom: 0px;
+            width: 0.7em;
+            background-image: url("~/assets/images/noise.jpeg");
+            background-size: 10em;
+            background-color: rgba(20, 20, 20, 0.6);
+            background-blend-mode: multiply;
+        }
+
+        .title {
+            margin: 0px;
+            font-size: 1.25em;
+            font-family: "MinecraftMono";
+        }
+
+        .date {
+            margin-top: 8px;
+            font-size: 0.8rem;
+        }
+
+        .blurb {
+            margin: 0px;
+            font-size: 0.95em;
+        }
+
+        .read-more {
+            background-image: url("~/assets/images/noise.jpeg");
+            background-size: 10em;
+            background-color: rgba(60, 60, 255, 0.9);
+            background-blend-mode: multiply;
+            padding: 0.5em;
+            font-family: "MinecraftMono";
+            color: white;
+            cursor: pointer;
+            transition: 100ms background-color;
+            text-decoration: none;
+
+            &:hover {
+                background-color: rgba(20, 20, 20, 0.8);
+                transition: 100ms background-color;
+            }
+        }
+    }
+}
