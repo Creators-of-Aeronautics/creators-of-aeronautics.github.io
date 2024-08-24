@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import IconBack from "~/assets/icons/back.svg";
+
 useHead({
     title: "Blogs | Create: Simulated",
 });
@@ -23,7 +25,11 @@ const { data } = await useAsyncData("data", () =>
     <img class="backgroundImage" src="~/assets/images/ground.png" />
 
     <article class="content">
-        <NuxtLink href="/" class="back">↑ Back To Home</NuxtLink>
+        <NuxtLink href="/" class="back">
+            <IconBack />
+            Back To Home
+        </NuxtLink>
+
         <h1>Developer Blog</h1>
 
         Welcome to the Create Simulated developer blog! Longer posts to update

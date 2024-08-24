@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import IconBack from "~/assets/icons/back.svg";
+</script>
+
 <template>
     <div class="backgroundImages">
         <div class="spacer"></div>
@@ -5,33 +9,30 @@
         <div class="void"></div>
         <img src="~/assets/images/wildwest.png" class="backgroundImageBlur1" />
         <div class="void"></div>
-        <img src="~/assets/images/underground.png" class="backgroundImageBlur2" />
+        <img
+            src="~/assets/images/underground.png"
+            class="backgroundImageBlur2"
+        />
         <div class="void"></div>
         <div class="void"></div>
         <img src="~/assets/images/fuckyeah2.png" class="backgroundImageBlur2" />
-        <img src="~/assets/images/oldliftoff.png" class="backgroundImageBlur2" />
+        <img
+            src="~/assets/images/oldliftoff.png"
+            class="backgroundImageBlur2"
+        />
         <div class="voideternal"></div>
     </div>
 
     <article class="content">
-        <NuxtLink href="/blogs" class="back">↑ Back To Blogs</NuxtLink>
+        <NuxtLink href="/blogs" class="back">
+            <IconBack />
+            Back To Blogs
+        </NuxtLink>
         <ContentDoc />
     </article>
 </template>
 
 <style lang="scss">
-body {
-    /* background: linear-gradient(
-    to bottom, 
-    #cae2e3,
-    #cae2e3 50vh,
-    #150e0b 40vh,
-    #150e0b
-  ); */
-
-    // background: #150e0b;
-}
-
 .spacer {
     background: #cae2e3;
 }
@@ -77,7 +78,7 @@ body {
     .sshot1 {
         width: 100%;
     }
-    
+
     .sshot2 {
         width: 100%;
     }

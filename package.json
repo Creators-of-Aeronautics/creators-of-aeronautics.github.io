@@ -1,5 +1,5 @@
 {
-    "name": "nuxt-app",
+    "name": "bunger",
     "private": true,
     "type": "module",
     "scripts": {
@@ -14,6 +14,7 @@
         "@nuxt/content": "^2.13.2",
         "@nuxt/image": "^1.7.0",
         "nuxt": "^3.13.0",
+        "nuxt-svgo": "^4.0.3",
         "vue": "latest"
     },
     "devDependencies": {

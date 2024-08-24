@@ -29,6 +29,15 @@ body {
         cursor: pointer;
         transition: 100ms background-color;
         text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 10.5rem;
+
+        svg {
+            margin-right: 0.75rem;
+        }
     }
 
     .article {
