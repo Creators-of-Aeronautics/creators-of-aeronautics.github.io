@@ -36,10 +36,10 @@ With all that dependency jargon out of the way, it's time to pull back that curt
 Tons of new features have been implemented to Simulated over the past few months, some of it in the form of equipment! Back in June, we set up a new "airport" server (like the one the initial multiplayer progress log was recorded in) to help test stability. In addition to several other things, we played an improved version of physics volleyball using the Creative Physics Zapper. We love to do these small events, competitions, and games with the project as a team, to both boost morale and test stability.
 
 <center>
-    <img class="sshot1" src="/assets/images/equipper.png" />
-    <img class="sshot1" src="/assets/images/hammer.png" />
-    <img class="sshot1" src="/assets/images/kolis.png" />
-    <img class="sshot1" src="/assets/images/volley.png" />
+    <img class="sshot1" src="../assets/images/equipper.png" />
+    <img class="sshot1" src="../assets/images/hammer.png" />
+    <img class="sshot1" src="../assets/images/kolis.png" />
+    <img class="sshot1" src="../assets/images/volley.png" />
 </center>
 
 Due to our relatively private dev cycle, there's still a lot of content that's yet to be formally shown
@@ -50,22 +50,22 @@ automation, and are excited to see what the community is able to do with them wh
 release.
 
 <center>
-    <img class="sshot2" src="/assets/images/various.png" />
+    <img class="sshot2" src="../assets/images/various.png" />
 </center>
 
 Of course, development has its hurdles, and some long standing features begin to show their cracks over time and need updating. A recent example of this would have to be our implementation of the Freespin Bearing, a type of bearing which uses worldshells rather than Create's contraption system. While the previous implementation was functional, it was relatively crude and would sag significantly for heavier masses. Eriksonn (our resident math wizard) took the opportunity to not only rework the Freespin constraints, but the constraints system as a whole, greatly improving stability across the board. While the overhaul is still partially underway, its benefits can already be seen with the new possibilities it opens up.
 
 <center>
     <video width="320" height="240" controls>
-        <source src="/assets/videos/flapper.mp4" type="video/mp4">
+        <source src="../assets/videos/flapper.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <video width="320" height="240" controls>
-        <source src="/assets/videos/vid1.mp4" type="video/mp4">
+        <source src="../assets/videos/vid1.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <video width="320" height="240" controls>
-        <source src="/assets/videos/vid2.mp4" type="video/mp4">
+        <source src="../assets/videos/vid2.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </center>
@@ -73,8 +73,8 @@ Of course, development has its hurdles, and some long standing features begin to
 We're making good progress on the project, and are super excited about the new content that's been developed. As a team we always internally joke about how much of the project is private- we've managed to form an internal development cycle that is self reinforcing to a certain degree, but that doesn't account for events and happenings in our lives that change our availability.
 
 <center>
-    <img class="sshot1" src="/assets/images/coolest picture ever.png" />
-    <img class="sshot1" src="/assets/images/bunny plane crash.png" />
+    <img class="sshot1" src="../assets/images/coolest picture ever.png" />
+    <img class="sshot1" src="../assets/images/bunny plane crash.png" />
 </center>
 
 # How's Landlord?
@@ -98,7 +98,7 @@ The existence of Create High Seas as a fourth Simulated addon has always been a 
 Community member "asdfasdferwr" created this image, which gave us quite the laugh:
 
 <center>
-    <img class="sshot2" src="/assets/images/highseasreal.png" />
+    <img class="sshot2" src="../assets/images/highseasreal.png" />
 </center>
 
 We're here to say that Create High Seas is real, and does have planned content, and has for a while (many months). We can't exactly say when, or if it will ever see the light of day, but the community was right! It exists, just low priority, and the people who want to work on it are busy working on Aeronautics and other mods, so it is on the backburner for now. But it is on the list of things to do!
@@ -108,9 +108,9 @@ We're here to say that Create High Seas is real, and does have planned content, 
 Written by Ryan, Tazer, and Adeline
 
 <center>
-    <img class="sshot1" src="/assets/images/fuckyeah.png" />
-    <img class="sshot1" src="/assets/images/fuckyeah2.png" />
-    <img class="sshot1" src="/assets/images/rockey1.png" />
+    <img class="sshot1" src="../assets/images/fuckyeah.png" />
+    <img class="sshot1" src="../assets/images/fuckyeah2.png" />
+    <img class="sshot1" src="../assets/images/rockey1.png" />
 </center>
 
 Liftoff as a project has been through a lot. The mod has been rewritten four whole times, each of them mostly led by different developers and artists. Luckily, it's settled on one codebase now, with one clear fully planned vision, and one clear art style. We've kept Liftoff mostly secret up until now, from the features, to the system, to the graphics, and even the blocks and resources within the project.
@@ -125,7 +125,7 @@ One of the questions we get most often about Liftoff is about the system, or mor
 
 <center>
     <video width="320" height="240" controls>
-        <source src="/assets/videos/nozzles.mp4" type="video/mp4">
+        <source src="../assets/videos/nozzles.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </center>

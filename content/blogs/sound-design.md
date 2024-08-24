@@ -40,7 +40,7 @@ take care to avoid it sounding too similar to amethyst, eventually settling on u
 version of the sound ender eyes play when they shatter for the base of the sound. 
 
 <center>
-<img class="sshot2" src="/assets/soundblog/wow_woah_levitite_flp.png">
+<img class="sshot2" src="../assets/soundblog/wow_woah_levitite_flp.png">
 </center>
 
 To further emphasize this, I'd also originally planned to layer in glass shattering sounds for the
@@ -48,7 +48,7 @@ breaking sounds, but it ended up being a bit too much.
 
 <center>
 <video width="320" height="240" controls>
-<source src="/assets/soundblog/lev_1.mp4" type="video/mp4">
+<source src="../assets/soundblog/lev_1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </center>
@@ -59,7 +59,7 @@ We ultimately settled on the sounds below, instead layering the amethyst shimmer
 
 <center>
 <video width="320" height="240" controls>
-<source src="/assets/soundblog/lev_2.mp4" type="video/mp4">
+<source src="../assets/soundblog/lev_2.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </center>
@@ -69,7 +69,7 @@ Another one of the earlier sounds I made for Simulated was the Stirling Engine. 
 
 
 <center>
-<img class="sshot2" src="/assets/soundblog/totally_not_an_arg_lmao.png">
+<img class="sshot2" src="../assets/soundblog/totally_not_an_arg_lmao.png">
 </center>
 
 
@@ -78,7 +78,7 @@ Although a steam hiss wasn't accurate to how a real world stirling sounds, I fel
 
 <center>
 <video width="320" height="240" controls>
-<source src="/assets/soundblog/stirling.mp4" type="video/mp4">
+<source src="../assets/soundblog/stirling.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </center>
@@ -98,7 +98,7 @@ In order to make propeller sounds dynamic to the speed/size of propellers, radiu
 
 <center>
 <video width="320" height="240" controls>
-<source src="/assets/soundblog/prop_1.mp4" type="video/mp4">
+<source src="../assets/soundblog/prop_1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </center>
@@ -112,19 +112,19 @@ Everything we've talked about so far has been in regards to Simulated and Aerona
 
 <center>
 <video width="320" height="240" controls>
-<source src="/assets/soundblog/collision_1.mp4" type="video/mp4">
+<source src="../assets/soundblog/collision_1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 <video width="320" height="240" controls>
-<source src="/assets/soundblog/collision_2.mp4" type="video/mp4">
+<source src="../assets/soundblog/collision_2.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 <video width="320" height="240" controls>
-<source src="/assets/soundblog/collision_3.mp4" type="video/mp4">
+<source src="../assets/soundblog/collision_3.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 <video width="320" height="240" controls>
-<source src="/assets/soundblog/collision_4.mp4" type="video/mp4">
+<source src="../assets/soundblog/collision_4.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </center>
@@ -155,7 +155,7 @@ When implementing moving sounds on worldshells a few months ago, I couldn't help
 
 <center>
 <video width="320" height="240" controls>
-<source src="/assets/soundblog/doppler.mp4" type="video/mp4">
+<source src="../assets/soundblog/doppler.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </center> 
