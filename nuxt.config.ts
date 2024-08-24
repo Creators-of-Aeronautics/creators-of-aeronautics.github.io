@@ -29,4 +29,10 @@ export default defineNuxtConfig({
             isCustomElement: (tag) => tag == "center" || tag == "Center",
         },
     },
+
+    content: {
+        experimental: {
+            clientDB: true,
+        },
+    },
 });
