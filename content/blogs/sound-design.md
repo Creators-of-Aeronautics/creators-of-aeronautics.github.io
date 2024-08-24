@@ -40,7 +40,7 @@ take care to avoid it sounding too similar to amethyst, eventually settling on u
 version of the sound ender eyes play when they shatter for the base of the sound. 
 
 <center>
-<img class="sshot2" src="../assets/soundblog/wow_woah_levitite_flp.png">
+<img class="sshot2" src="../../assets/soundblog/wow_woah_levitite_flp.png">
 </center>
 
 To further emphasize this, I'd also originally planned to layer in glass shattering sounds for the
@@ -69,7 +69,7 @@ Another one of the earlier sounds I made for Simulated was the Stirling Engine. 
 
 
 <center>
-<img class="sshot2" src="../assets/soundblog/totally_not_an_arg_lmao.png">
+<img class="sshot2" src="../../assets/soundblog/totally_not_an_arg_lmao.png">
 </center>
 
 
