@@ -42,5 +42,6 @@ export default defineNitroPlugin((app) => {
             `<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />`,
         );
         html.head.push(`<meta name="language" content="English" />`);
+        html.head.push(`<link href="${useRuntimeConfig().app.baseURL}favicon.ico" rel="icon" type="image/x-icon" />`);
     });
 });

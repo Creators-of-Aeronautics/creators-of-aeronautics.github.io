@@ -163,13 +163,19 @@ body {
     .infoTextBox {
         width: 100%;
         max-width: 100%;
-    }
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
 
-    .infoText {
-        font-size: 0.6em;
-        margin-left: 3.2em;
-        margin-right: 3.2em;
-        margin-top: 2.5em;
+        .infoText {
+            font-size: 1.24rem;
+            width: 70%;
+            // margin-left: 3.2em;
+            // margin-right: 3.2em;
+            // margin-top: 2em;
+            margin: 0;
+        }
     }
 
     .logoImage {
