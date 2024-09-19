@@ -12,7 +12,7 @@ useHead({
     <div class="infoTextBox li2">
         <p class="infoText">
             Expanding the Minecraft Create mod with interactive physics-based
-            contraptions. This is the home page of the Create Simulated project.
+            contraptions. This is the Create: Simulated project.
         </p>
     </div>
 
