@@ -3,9 +3,20 @@
     src: url("~/assets/fonts/MinecraftMono.otf");
 }
 
+@font-face {
+    font-family: "Monocraft";
+    src: url("~/assets/fonts/Monocraft.ttf");
+}
+
+@font-face {
+    font-family: "Miracode";
+    src: url("~/assets/fonts/Miracode.ttf");
+}
+
 html,
 body {
-    background-color: lightblue;
+    // background-color: lightblue;
+    background-color: #150e0b;
     margin: 0;
     padding: 0;
     border: none;
@@ -13,32 +24,6 @@ body {
     overflow: hidden;
 
     --button-size: 250px;
-}
-
-.spacer {
-    height: 50vh;
-}
-
-.backgroundImages {
-    position: absolute;
-    top: 0;
-
-    width: 100%;
-    height: auto;
-
-    image-rendering: pixelated;
-
-    & > img {
-        width: 100%;
-        height: auto;
-        image-rendering: pixelated;
-        margin: 0px;
-    }
-}
-
-.void {
-    margin: 0px;
-    margin-top: -1em;
 }
 
 .logoImage {
