@@ -46,6 +46,7 @@
     right: 0;
     bottom: 0;
     padding: 0 1% 1% 0;
+    z-index: 100;
 
     .icon {
         height: 3em;
