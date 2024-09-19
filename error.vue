@@ -25,9 +25,9 @@ useHead({
                 </NuxtLink>
             </div>
 
-            <a href="/plunger-blunger.gif" target="_blank">
+            <NuxtLink href="/plunger-blunger.gif" target="_blank">
                 <img src="/plunger-blunger.gif" class="pb" />
-            </a>
+            </NuxtLink>
         </NuxtLayout>
     </div>
 </template>
