@@ -1,3 +1,3 @@
 export default defineAppConfig({
-    title: "Create Simulated",
+    title: "Create: Simulated",
 });

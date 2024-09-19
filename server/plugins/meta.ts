@@ -6,6 +6,8 @@ const tags = [
     "create simulated",
     "simulation",
     "mod",
+    "minecraft mod",
+    "modding",
     "physics",
     "liftoff",
     "create liftoff",
@@ -14,10 +16,15 @@ const tags = [
     "tracky",
     "create offroad",
     "offroad",
-    "bunger",
-    "bunger troll",
-    "bungertroll",
+    "landlord",
+    "gax-physics",
+    "blunger",
+    "blunger troll",
+    "blungertroll",
     "plunger",
+    "plunger blunger",
+    "plunger-blunger",
+    "plungerblunger",
 ];
 
 export default defineNitroPlugin((app) => {
