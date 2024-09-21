@@ -1,0 +1,15 @@
+node_modules
+dist
+build
+.nuxt
+.nitro
+old
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.mp4
+*.otf
+public/assets
+*.md

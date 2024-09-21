@@ -1,0 +1,204 @@
+@import "@fontsource/ubuntu/index.css";
+
+@font-face {
+    font-family: "MinecraftMono";
+    src: url("~/assets/fonts/MinecraftMono.otf");
+}
+
+@font-face {
+    font-family: "Monocraft";
+    src: url("~/assets/fonts/Monocraft.ttf");
+}
+
+@font-face {
+    font-family: "Miracode";
+    src: url("~/assets/fonts/Miracode.ttf");
+}
+
+@font-face {
+    font-family: "MinecraftRegular";
+    src: url("~/assets/fonts/MinecraftRegular-Bmg3.otf");
+}
+
+html,
+body {
+    // background-color: lightblue;
+    background-color: #150e0b;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    overflow: hidden;
+
+    --button-size: 250px;
+}
+
+.logoImage {
+    padding: 0.5em;
+
+    min-width: 23em;
+    max-width: 40%;
+    width: 40%;
+}
+
+.backgroundImage {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: auto;
+
+    image-rendering: pixelated;
+}
+
+.infoTextBox {
+    max-width: 98%;
+    width: 30em;
+
+    aspect-ratio: 2.28;
+
+    text-align: center;
+    font-size: x-large;
+    font-family: "MinecraftMono";
+
+    background-image: url("~/assets/images/textbox.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 50%;
+
+    image-rendering: pixelated;
+
+    .infoText {
+        font-size: 1em;
+        margin: 4em;
+    }
+}
+
+.buttons {
+    text-align: center;
+    font-family: "MinecraftMono";
+
+    color: white;
+    text-shadow: 4px 4px black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 5em;
+    z-index: 100;
+
+    .nav-button {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        image-rendering: pixelated;
+
+        aspect-ratio: 50%;
+        flex: 1;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-decoration: none;
+
+        transform: scale(1);
+        transition: 100ms transform;
+
+        // background-color: none;
+        // border: none;
+
+        p {
+            color: white;
+            text-decoration: none;
+            font-size: 18pt;
+            font-weight: bold;
+
+            margin: 0;
+            padding: 0;
+
+            // flex:1;
+            // width: 100%;
+            // height:100%;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        &.disabled-nav {
+            filter: grayscale(100%);
+            cursor: not-allowed;
+            opacity: 30%;
+        }
+    }
+
+    .blueprintButton {
+        background-image: url("~/assets/images/blueprint_button.png");
+    }
+
+    .brassButton {
+        background-image: url("~/assets/images/brass_button.png");
+    }
+
+    .beltButton {
+        background-image: url("~/assets/images/belt_button.png");
+    }
+}
+
+// media query for small screens
+@media screen and (max-width: 600px) {
+    .infoTextBox {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .infoText {
+            font-size: 1.24rem;
+            width: 70%;
+            // margin-left: 3.2em;
+            // margin-right: 3.2em;
+            // margin-top: 2em;
+            margin: 0;
+        }
+    }
+
+    .logoImage {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .buttons {
+        margin: 0px;
+        padding: 0px;
+        flex-direction: column;
+        width: 15em;
+        flex: 1;
+        max-width: 100%;
+        gap: 0em;
+        justify-content: start;
+    }
+
+    .nav-button {
+        aspect-ratio: 50%;
+        flex: none;
+        padding: 0px;
+        width: 100%;
+        height: 8em !important;
+    }
+
+    .brassButton {
+        visibility: hidden;
+    }
+
+    .blueprintButton {
+        visibility: hidden;
+    }
+}
