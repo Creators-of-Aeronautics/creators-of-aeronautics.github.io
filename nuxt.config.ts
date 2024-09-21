@@ -6,20 +6,24 @@ export default defineNuxtConfig({
 
     css: ["~/assets/scss/global.scss", "~/assets/scss/blog.scss"],
 
-    devServer: {
-        port: 4000,
-    },
+    devServer: process.env.REDSTONE_IS_DUMB
+        ? {
+              port: 4000,
+          }
+        : {},
 
     vite: {
-        server: {
-            strictPort: true,
+        server: process.env.REDSTONE_IS_DUMB
+            ? {
+                  strictPort: true,
 
-            hmr: {
-                port: 4000,
-                clientPort: 443,
-                protocol: "wss",
-            },
-        },
+                  hmr: {
+                      port: 4000,
+                      clientPort: 443,
+                      protocol: "wss",
+                  },
+              }
+            : {},
     },
 
     modules: ["@nuxt/content", "@nuxt/image", "nuxt-svgo"],

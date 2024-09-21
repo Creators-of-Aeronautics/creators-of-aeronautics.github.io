@@ -1,5 +1,5 @@
 {
-    "name": "bunger",
+    "name": "blunger",
     "private": true,
     "type": "module",
     "scripts": {
@@ -11,6 +11,7 @@
         "fmt": "prettier --write ."
     },
     "dependencies": {
+        "@fontsource/ubuntu": "^5.1.0",
         "@nuxt/content": "^2.13.2",
         "@nuxt/image": "^1.8.0",
         "nuxt": "^3.13.2",

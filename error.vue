@@ -41,7 +41,7 @@ useHead({
     z-index: 0;
     margin: 0;
     padding: 0;
-    background-color: #C7E1E2;
+    background-color: #c7e1e2;
 }
 
 .li2 {

@@ -1,3 +1,5 @@
+@import "@fontsource/ubuntu/index.css";
+
 @font-face {
     font-family: "MinecraftMono";
     src: url("~/assets/fonts/MinecraftMono.otf");
@@ -11,6 +13,11 @@
 @font-face {
     font-family: "Miracode";
     src: url("~/assets/fonts/Miracode.ttf");
+}
+
+@font-face {
+    font-family: "MinecraftRegular";
+    src: url("~/assets/fonts/MinecraftRegular-Bmg3.otf");
 }
 
 html,
