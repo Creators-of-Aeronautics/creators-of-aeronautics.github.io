@@ -1,82 +1,95 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Create Aeronautics</title>
 
-<head>
-    <link rel="stylesheet" type="text/css" href="./main.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Download Create Aeronautics. Build anything from airships to planes and cars!">
+        <meta name="keywords" content="create aeronautics, create aeronautics download, create, create mod, minecraft">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
 
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <script>
+            const date = 1776520800000;
+            if(date - Date.now() > 300000) {
+                window.location.href = "/countdown";
+            }
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            .download-button {
+                text-decoration: none;
+            }
 
-    <meta name="title" content="Create Simulated">
-    <meta name="description" content="The home page of the Create Simulated project. Expanding the Minecraft Create mod with interactive physics-based contraptions.">
-    <meta name="keywords" content="create aeronautics, create, create mod, minecraft">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
+            #content {
+                margin-top: 5%;
+                filter: drop-shadow(0px 0px 10px var(--shadow-color));
+            }
 
-</head>
+            #video {
+                display: block;
+                margin: auto;
+            }
 
-<body>
+            #downloads {
+                color: white;
+                text-align: center;
+                font-size: 2vw;
+            }
 
+            h1 {
+                filter: drop-shadow(5px 5px var(--shadow-color));
+            }
 
-    <section class="mainSection">
-        <img id="backgroundImage" src="resources/ground.png">
-        <img id="logoImage" src="resources/logo.png">
+            .download-button {
+                transition: filter 0.2s;
+            }
+            
+            .download-button:hover {
+                filter: brightness(150%);
+            }
 
+            @media screen and (max-width: 100vh) {
+                #video {
+                    width: 90%;
+                }
 
-        <div id="infoTextBox">
-            <p id="infoText">
-                Expanding the Minecraft Create mod with interactive physics-based contraptions.
+                #downloads {
+                    font-size: 2vh;
+                }
 
-                This is the home page of the Create Simulated project.
-            </p>
+                img {
+                    height: 120px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="content">
+            <iframe id="video" width="896" height="504" src="https://www.youtube.com/embed/SO8tpWfZjGk 
+"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+            <div id="downloads">
+                <h1>Download</h1>
+
+                <a class="download-button" href="https://modrinth.com/mod/create-aeronautics" alt="download from modrinth">
+                    <img alt="modrinth" height="90"
+                        src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_64h.png">
+                </a>
+                <!-- uncomment when its on cf -->
+                <!-- <a class="download-button" href="https://www.curseforge.com/minecraft/mc-mods/create-aeronautics"
+                    alt="download from modrinth">
+                    <img alt="curseforge" height="90"
+                        src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_64h.png">
+                </a> -->
+            </div>
         </div>
 
-        <div id="buttons">
-            <a id="beltButton" class="nav-button" href="/blog.html">
-                <h1>Progress Blog</h1>
-                <!-- Progress Blog -->
-            </a>
-            <a aria-disabled="true" id="brassButton" class="disabled-nav nav-button">
-                <h1>Team Members</h1>
-                <!-- Team Members -->
-            </a>
-            <a aria-disabled="true" id="blueprintButton" class="disabled-nav nav-button">
-                <h1>Wiki</h1>
-                <!-- Wiki -->
-            </a>
-        </div>
-
-
-        <!-- Eternal Link Icons (from https://intergrav.github.io/devins-badges-docs/) -->
-        <div id="externalIcons">
-            <a href="https://discord.com/invite/createaeronautics">
-                <img class="icon"
-                    src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/social/discord-plural_64h.png">
-            </a>
-            <!-- <a href="https://github.com/Creators-of-Aeronautics/">
-                <img class="icon"
-                    src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/social/github-plural_64h.png">
-            </a> -->
-            <!-- <a href="https://modrinth.com/mod/fabric-api">
-                <img class="icon"
-                    src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/available/modrinth_64h.png">
-            </a> -->
-            <!-- <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api">
-                <img class="icon"
-                    src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/available/curseforge_64h.png">
-            </a> -->
-            <a href="https://www.youtube.com/@createaeronautics1997">
-                <img class="icon"
-                    src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/social/youtube-plural_64h.png">
-            </a>
-            <a href="https://twitter.com/C_Aeronautics">
-                <img class="icon"
-                    src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/social/twitter-plural_64h.png">
-            </a>
-        </div>
-    </section>
-</body>
-
-<script src="./index.js"></script>
-
+    </body>
 </html>

@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.mount": [
+        ["/", "./"],
+        ["/countdown", "./countdown.html"]
+    ]
+}

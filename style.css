@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Monocraft';
+    src: url('./resources/fonts/Monocraft.ttf'),
+        url('./resources/fonts/Monocraft.otf'),
+        url('./reesources/fonts/Monocraft.ttc');
+}
+
+:root {
+    --shadow-color: rgb(13, 13, 65);
+}
+
+body {
+    font-family: 'Monocraft';
+
+    background-image: url('./resources/images/background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100%;
+
+    overflow: hidden;
+
+    z-index: 0;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    background: linear-gradient(
+        rgb(66, 3, 194) 0%,
+        rgba(61, 65, 168, 0.7) 17%,
+        rgba(212, 212, 212, 0) 100%
+    );
+}
+
