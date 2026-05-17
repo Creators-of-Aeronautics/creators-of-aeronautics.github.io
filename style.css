@@ -17,10 +17,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
 
-    overflow: hidden;
+    overflow: auto;
 
     z-index: 0;
 }
